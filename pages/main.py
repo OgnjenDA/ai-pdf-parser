@@ -6,9 +6,9 @@ import pandas as pd
 import json
 
 # Set up your API key
-openai.api_key = "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"
+openai.api_key = st.secrets["openai"]["api_key"]
 
-AYP_API_KEY = 'ask_9485bafc556cfd1bc5d26caa8893cfef'
+AYP_API_KEY = st.secrets["pdf"]["pdf_api_key"]
 
 # Make a completion request
 def gpt_response(user_message):
