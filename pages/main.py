@@ -6,7 +6,7 @@ import pandas as pd
 import json
 
 # Set up your API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 AYP_API_KEY = 'ask_9485bafc556cfd1bc5d26caa8893cfef'
 
